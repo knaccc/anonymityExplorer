@@ -9,7 +9,7 @@ public class TaskRunner {
     try {
 
       String daemonEndpoint = "http://127.0.0.1:18081";
-      File storageDir = new File(System.getProperty("user.home") + "/.anonymitySet");
+      File storageDir = new File(System.getProperty("user.home") + "/.anonymityExplorer");
       AnonymityExplorer anonymityExplorer = new AnonymityExplorer(storageDir, daemonEndpoint);
       anonymityExplorer.readLatestBlocks();
 
