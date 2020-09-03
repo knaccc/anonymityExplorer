@@ -1,15 +1,15 @@
-package knaccc.monero.anonymitySet.tasks;
+package knaccc.monero.anonymityExplorer.tasks;
 
-import knaccc.monero.anonymitySet.AnonymityExplorer;
-import knaccc.monero.anonymitySet.Task;
-import knaccc.monero.anonymitySet.TaskRunner;
+import knaccc.monero.anonymityExplorer.AnonymityExplorer;
+import knaccc.monero.anonymityExplorer.Task;
+import knaccc.monero.anonymityExplorer.TaskRunner;
 import knaccc.monero.util.Timer;
 
 import java.util.Arrays;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static knaccc.monero.anonymitySet.AnonymityExplorer.getRandomIdBetween;
+import static knaccc.monero.anonymityExplorer.AnonymityExplorer.getRandomIdBetween;
 
 public class Tx2OutMergeProbability implements Task {
 

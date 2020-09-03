@@ -1,4 +1,4 @@
-package knaccc.monero.anonymitySet;
+package knaccc.monero.anonymityExplorer;
 
 public interface Task {
 

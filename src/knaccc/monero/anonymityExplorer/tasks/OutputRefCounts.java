@@ -1,8 +1,8 @@
-package knaccc.monero.anonymitySet.tasks;
+package knaccc.monero.anonymityExplorer.tasks;
 
-import knaccc.monero.anonymitySet.AnonymityExplorer;
-import knaccc.monero.anonymitySet.Task;
-import knaccc.monero.anonymitySet.TaskRunner;
+import knaccc.monero.anonymityExplorer.AnonymityExplorer;
+import knaccc.monero.anonymityExplorer.Task;
+import knaccc.monero.anonymityExplorer.TaskRunner;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

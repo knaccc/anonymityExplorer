@@ -1,6 +1,6 @@
-package knaccc.monero.anonymitySet;
+package knaccc.monero.anonymityExplorer;
 
-import knaccc.monero.anonymitySet.tasks.PermutationUtil;
+import knaccc.monero.anonymityExplorer.tasks.PermutationUtil;
 import knaccc.monero.daemonRpc.DaemonRpc;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -14,8 +14,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 import static knaccc.monero.util.ByteUtil.*;
-import static knaccc.monero.anonymitySet.Cursor.readVarInt;
-import static knaccc.monero.anonymitySet.Cursor.toVarInt;
+import static knaccc.monero.anonymityExplorer.Cursor.readVarInt;
+import static knaccc.monero.anonymityExplorer.Cursor.toVarInt;
 import static knaccc.monero.util.TextTableUtil.commaGrouped;
 
 public class AnonymityExplorer {

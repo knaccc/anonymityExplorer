@@ -1,4 +1,4 @@
-package knaccc.monero.anonymitySet.tasks;
+package knaccc.monero.anonymityExplorer.tasks;
 
 import java.util.Arrays;
 

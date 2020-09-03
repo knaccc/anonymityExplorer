@@ -1,4 +1,4 @@
-package knaccc.monero.anonymitySet;
+package knaccc.monero.anonymityExplorer;
 
 import java.io.File;
 import java.util.Date;

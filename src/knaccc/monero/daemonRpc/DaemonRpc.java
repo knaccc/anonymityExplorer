@@ -1,10 +1,10 @@
 package knaccc.monero.daemonRpc;
 
-import knaccc.monero.anonymitySet.Block;
-import knaccc.monero.anonymitySet.Transaction;
-import knaccc.monero.anonymitySet.TransactionCursor;
+import knaccc.monero.anonymityExplorer.Block;
+import knaccc.monero.anonymityExplorer.Transaction;
+import knaccc.monero.anonymityExplorer.TransactionCursor;
 import knaccc.monero.util.ByteUtil;
-import knaccc.monero.anonymitySet.HttpUtil;
+import knaccc.monero.anonymityExplorer.HttpUtil;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
