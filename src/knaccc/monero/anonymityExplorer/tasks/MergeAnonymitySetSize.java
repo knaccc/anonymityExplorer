@@ -26,7 +26,7 @@ public class MergeAnonymitySetSize implements Task {
     // key question: if you send me two poisoned outputs, and I merge them, how many other ways will the blockchain
     //   also report that they might have been merged?
 
-    // pick a random outputs on the blockchain created during month of July 2020
+    // pick 2 random outputs on the blockchain created during month of July 2020
     // count the number of direct or indirect merges observed
 
     // repeat for several pairs of two random poisoned outputs
